@@ -1,4 +1,4 @@
-export FLOWNET_PATH='/shared/rsaas/shaoyuc3/dior-flowstyle/checkpoints_fs/PBAFN_stage1_fs/PBAFN_warp_epoch_081.pth'
+export FLOWNET_PATH=...
 
 python -m torch.distributed.launch --nproc_per_node=1 --master_port=7130 train_flow.py --name PBAFN_stage1_fs \
 --verbose --tf_log --batch_size 4 --launcher pytorch --checkpoints_dir checkpoints_fs \
