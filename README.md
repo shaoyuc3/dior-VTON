@@ -30,19 +30,6 @@ Please specify ```--frozen_flownet```.
 We run experiments on __VITON Dataset__. Download the dataset from [here](https://drive.google.com/drive/folders/1gPy40oeFE-R5uQuE8CdEud91IC8EBIXJ).
 
 
-We run experiments on __Deepfashion Dataset__. To set up the dataset:
-1. Download and unzip ```img_highres.zip``` from the [deepfashion inshop dataset](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/InShopRetrieval.html) at ```$DATA_ROOT```
-2. Download the train/val split and pre-processed keypoints annotations from 
-[GFLA source](https://drive.google.com/drive/folders/1BX3Bxh8KG01yKWViRY0WTyDWbJHju-SL)
-or [PATN source](https://drive.google.com/drive/folders/1eIwVFMRu9sU5UN-dbyTSEDEZJnWyYfxj),
-and put the ```.csv``` and ```.lst``` files at ```$DATA_ROOT```.
-    - If one wants to extract the keypoints from scratch/for your dataset, please run [OpenPose](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation) as the pose estimator or follow the instruction from [PATN](https://github.com/tengteng95/Pose-Transfer) to generate the keypoints in desired format. (Check Issue [#21](https://github.com/cuiaiyu/dressing-in-order/issues/21) for more details.)
-3. Run ```python tools/generate_fashion_dataset.py --dataroot $DATAROOT``` to split the data. 
-4. Get human parsing. You can obtain the parsing by either:
-    - Run off-the-shelf human parser [SCHP](https://github.com/PeikeLi/Self-Correction-Human-Parsing) (with LIP labels) on ```$DATA_ROOT/train``` and ```$DATA_ROOT/test```. Name the output parses folder as ```$DATA_ROOT/trainM_lip``` and ```$DATA_ROOT/testM_lip``` respectively.
-    - Download the preprocessed parsing from [here](https://drive.google.com/drive/folders/11wWszW1kskAyMIGJHBBZzHNKN3os6pu_?usp=sharing) and put it under ```$DATA_ROOT```.
-5. Download [standard_test_anns.txt](https://drive.google.com/drive/folders/11wWszW1kskAyMIGJHBBZzHNKN3os6pu_?usp=sharing) for fast visualization.
-
 After the processing, you should have the dataset folder formatted like:
 ```
 + $DATA_ROOT
