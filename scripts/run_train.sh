@@ -1,15 +1,9 @@
-#!/bin/bash
-#nvidia-smi
-
-#source ~/anaconda3/etc/profile.d/conda.sh
-#conda activate gfla
-
 export NGF=32
-export DATAROOT='/shared/rsaas/shaoyuc3/dior-flowstyle/data'
+export DATAROOT=...
 export NET_G=dior
-export NAME=dior_style_from_scratch_test
-export PRETRAINED_FLOWNET_PATH='/shared/rsaas/shaoyuc3/dior-flowstyle/checkpoints_fs/PBAFN_stage1_fs/PBAFN_warp_epoch_101.pth'
-export GENERATE_OUTPUT_PATH='/shared/rsaas/shaoyuc3/dior-flowstyle/checkpoints/dior_style_from_scratch_test/val_out'
+export NAME=dior_viton
+export PRETRAINED_FLOWNET_PATH='checkpoints_fs/PBAFN_stage1_fs/PBAFN_warp_epoch_101.pth'
+export GENERATE_OUTPUT_PATH='checkpoints/dior_viton/val_out'
 
 python train.py --model dior \
 --name $NAME --dataroot $DATAROOT --crop_size '256, 192' \
