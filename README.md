@@ -26,8 +26,10 @@ pip install -r requirements.txt
 __If one wants to run inference only:__
 Please specify ```--frozen_flownet```.
 
-
 ## Dataset
+We run experiments on __VITON Dataset__. Download the dataset from [here](https://drive.google.com/drive/folders/1gPy40oeFE-R5uQuE8CdEud91IC8EBIXJ).
+
+
 We run experiments on __Deepfashion Dataset__. To set up the dataset:
 1. Download and unzip ```img_highres.zip``` from the [deepfashion inshop dataset](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/InShopRetrieval.html) at ```$DATA_ROOT```
 2. Download the train/val split and pre-processed keypoints annotations from 
