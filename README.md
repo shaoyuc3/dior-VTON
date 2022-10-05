@@ -15,17 +15,16 @@ Play with [demo.ipynb](demo.ipynb)!
 - torch 1.10.1
 - torchvision 0.11.2
 - opencv
+- visdom
 
 ## Get Started
-Please follow the [installation instruction in GFLA](https://github.com/RenYurui/Global-Flow-Local-Attention) to install the environment. 
-
-Then run
+Run
 ```
 pip install -r requirements.txt
 ```
 
 __If one wants to run inference only:__
-You can use later version of PyTorch and you don't need to worry about how to install GFLA's cuda functions. Please specify ```--frozen_flownet```.
+Please specify ```--frozen_flownet```.
 
 
 ## Dataset
