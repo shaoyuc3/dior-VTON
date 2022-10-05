@@ -1,11 +1,11 @@
-export OUTPUT_DIR=/shared/rsaas/shaoyuc3/dior-flowstyle/checkpoints/dior_style_from_scratch/generate_unpair
-export NAME=dior_style_from_scratch
+export OUTPUT_DIR=checkpoints/dior_viton/generate
+export NAME=dior_viton
 export LOAD_EP=latest
 export NET_G=dior
 export NET_E=adgan
 export NGF=32
-export DATAROOT=/shared/rsaas/shaoyuc3/dior-flowstyle/data
-export FID_GENERATED=/shared/rsaas/shaoyuc3/dior-flowstyle/checkpoints/dior_style_from_scratch/generate_FID
+export DATAROOT=...
+export FID_GENERATED=checkpoints/dior_viton/generate_FID
 export PRETRAINED_FLOWNET_PATH='checkpoints_fs/PBAFN_stage1_fs/PBAFN_warp_epoch_101.pth'
 
 # generate images
