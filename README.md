@@ -9,7 +9,13 @@ __More results__
 
 Play with [demo.ipynb](demo.ipynb)!
 
-----
+## Requirements
+
+- python 3.6.13
+- torch 1.1.0 (as no third party libraries are required in this codebase, other versions should work, not yet tested)
+- torchvision 0.3.0
+- tensorboardX
+- opencv
 
 ## Get Started
 Please follow the [installation instruction in GFLA](https://github.com/RenYurui/Global-Flow-Local-Attention) to install the environment. 
