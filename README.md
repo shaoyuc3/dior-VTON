@@ -27,7 +27,7 @@ __If one wants to run inference only:__
 Please specify ```--frozen_flownet```.
 
 ## Dataset
-We run experiments on __VITON Dataset__. Download the dataset from [here](https://drive.google.com/file/d/1H7VzWqCA93wIcp4Clt_MS4jDCsZLbiRq/view?usp=sharing).
+Download the __VITON Dataset__ from [here](https://drive.google.com/file/d/1H7VzWqCA93wIcp4Clt_MS4jDCsZLbiRq/view?usp=sharing).
 
 
 After the processing, you should have the dataset folder formatted like:
