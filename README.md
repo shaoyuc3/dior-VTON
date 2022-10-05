@@ -1,32 +1,9 @@
 # Dressing in Order (DiOr)
-[👕 __ICCV'21 Paper__](https://openaccess.thecvf.com/content/ICCV2021/html/Cui_Dressing_in_Order_Recurrent_Person_Image_Generation_for_Pose_Transfer_ICCV_2021_paper.html) |
-[:jeans: __Project Page__](https://cuiaiyu.github.io/dressing-in-order) |
-[:womans_clothes: __arXiv__](https://cuiaiyu.github.io/dressing-in-order/Cui_Dressing_in_Order.pdf) |
-[🎽 __Video Talk__](https://youtu.be/z0UgPSTEdVo) |
-[:dress: __Running This Code__](#get-started)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dressing-in-order-recurrent-person-image/pose-transfer-on-deep-fashion)](https://paperswithcode.com/sota/pose-transfer-on-deep-fashion?p=dressing-in-order-recurrent-person-image)
+This is an implementation of __Dressing in Order__ on VITON dataset.
 
-The official implementation of __"Dressing in Order: Recurrent Person Image Generation for Pose Transfer, Virtual Try-on and Outfit Editing."__ 
-by
-[Aiyu Cui](https://cuiaiyu.github.io),
-[Daniel McKee](http://danielbmckee.com) and
-[Svetlana Lazebnik](https://slazebni.cs.illinois.edu).
- (ICCV 2021)
-
-:bell: __Updates__
-- [2021/08] Please check our [latest version of paper](https://cuiaiyu.github.io/dressing-in-order/Cui_Dressing_in_Order.pdf) for the updated and clarified implementation details.      
-  - *__Clarification:__ the facial component was not added to the skin encoding as stated in the [our CVPR 2021 workshop paper](https://openaccess.thecvf.com/content/CVPR2021W/CVFAD/papers/Cui_Dressing_in_Order_Recurrent_Person_Image_Generation_for_Pose_Transfer_CVPRW_2021_paper.pdf) due to a minor typo. However, this doesn't affect our conclusions nor the comparison with the prior work, because it is an independent skin encoding design.*
-- [2021/07] To appear in [__ICCV 2021__](https://openaccess.thecvf.com/content/ICCV2021/html/Cui_Dressing_in_Order_Recurrent_Person_Image_Generation_for_Pose_Transfer_ICCV_2021_paper.html).
-- [2021/06] The best paper at [Computer Vision for Fashion, Art and Design](https://sites.google.com/zalando.de/cvfad2021/home) Workshop CVPR 2021.
-
-__Supported Try-on Applications__
 
 ![](Images/short_try_on_editing.png)
-
-__Supported Editing Applications__
-
-![](Images/short_editing.png)
 
 __More results__
 
