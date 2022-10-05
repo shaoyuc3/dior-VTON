@@ -124,17 +124,13 @@ class DIORBaseModel(BaseModel):
 
     def save_batch(self, save_dir, save_dir_FID, count, square=False, crop_size=(256, 176)):
         self.from_img = F.interpolate(self.from_img, crop_size)
-        #self.fake_B_dior = F.interpolate(self.fake_B_dior, crop_size) #F.interpolate(self.fake_B, crop_size)
         self.fake_B = F.interpolate(self.fake_B, crop_size)
         self.to_img = F.interpolate(self.to_img, crop_size)
         self.warped_cloth = F.interpolate(self.warped_cloth, crop_size)
-        #import pdb; pdb.set_trace()
         self.seg = F.interpolate(self.seg, crop_size)
-        print(self.from_img.shape[1:], self.to_img.shape[1:], self.fake_B.shape[1:], self.warped_cloth.shape[1:], self.seg.shape[1:])
-        #print(self.from_img.shape[1:], self.to_img.shape[1:], self.fake_B.shape[1:])
         
-        rets = torch.cat([self.from_img, self.to_img, self.seg, self.fake_B, self.warped_cloth], 3)
-        #rets = torch.cat([self.from_img, self.to_img, self.fake_B], 3)
+        #rets = torch.cat([self.from_img, self.to_img, self.seg, self.fake_B, self.warped_cloth], 3)
+        rets = torch.cat([self.from_img, self.to_img, self.fake_B], 3)
         for i, ret in enumerate(rets):
             img = tensor2im(ret)
             imageio.imwrite(os.path.join(save_dir, "generated_%d.jpg" % count), img)
