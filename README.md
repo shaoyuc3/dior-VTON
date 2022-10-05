@@ -1,6 +1,6 @@
-# Dressing in Order (DiOr)
+# Dressing in Order (DiOr) on VITON Dataset
 
-This is an implementation of __Dressing in Order__ on VITON dataset.
+This is an implementation of __Dressing in Order__ on VITON dataset using Flow Style.
 
 
 ![](Images/short_try_on_editing.png)
