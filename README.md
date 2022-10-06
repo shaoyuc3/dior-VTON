@@ -22,8 +22,7 @@ Run
 pip install -r requirements.txt
 ```
 
-__If one wants to run inference only:__
-Please specify ```--frozen_flownet```.
+__Note__: If one wants to run inference only, please specify ```--frozen_flownet```.
 
 
 ## Dataset
