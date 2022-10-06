@@ -72,4 +72,4 @@ Our generated images [\[256x192\]](https://drive.google.com/drive/folders/16RHLV
 
 
 ## Acknowledgements
-This repository is built up on [DiOr](https://github.com/cuiaiyu/dressing-in-order) and [Flow-Style-VTON](https://github.com/SenHe/Flow-Style-VTON).
+This repository is based on [DiOr](https://github.com/cuiaiyu/dressing-in-order) and [Flow-Style-VTON](https://github.com/SenHe/Flow-Style-VTON).
