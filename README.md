@@ -1,7 +1,7 @@
 # Dressing in Order (DiOr) on VITON Dataset
 This is an implementation of __Dressing in Order__ on VITON dataset using __Parser-Based Appearance Flow Style__.
 
-![](Images/short_try_on_editing.png)
+![](Images/try_on_example.png)
 
 __More results__
 
