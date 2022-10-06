@@ -38,22 +38,22 @@ For custom dataset or train from scratch, please generate the data folder with t
 
 
 ## Run Demo
-You can download the pretrained weights from [here](https://drive.google.com/drive/folders/1Qgaj4n9e412CDdNQOWiuIuEy8Ysx2HrY) and unzip at ```checkpoints/```.
+You can download the pretrained weights from [here](https://drive.google.com/drive/folders/1Qgaj4n9e412CDdNQOWiuIuEy8Ysx2HrY) and unzip it at ```checkpoints/```.
 
 After downloading the pretrained model and setting the data, you can try out the applications in notebook [demo.ipynb](demo.ipynb).
 
 
 ## Training
+__Parser-Based Appearance Flow Style__
 
-__Warmup the Global Flow Field Estimator__
+To warm up the Parser-Based Appearance Flow Field Estimator, first download the vgg checkpoint from [here](https://github.com/senhe/flow-style-vton) and put the checkpoint under the folder ```models/networks/flowStyle```.
 
-Note, if you don't want to warmup the Global Flow Field Estimator, you can extract its weights from GFLA by downloading the pretrained weights GFLA from [here](https://github.com/RenYurui/Global-Flow-Local-Attention). (Check Issue [#23](https://github.com/cuiaiyu/dressing-in-order/issues/23) for how to extract weights from GFLA.)
-
-Otherwise, run
-
+Then run
 ```
-sh scripts/run_pose.sh
+sh scripts/run_PBAFN.sh
 ```
+
+__Note__: if you don't want to warmup the Flow Field Estimator, you can extract the weights from [here](https://drive.google.com/drive/folders/1upRRswJf_hXldl48w5QCX7LOJp71otJB).
 
 __Training__
 
