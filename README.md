@@ -56,6 +56,7 @@ sh scripts/run_PBAFN.sh
 __Note__: if you don't want to warmup the Estimator, you can extract the weights from [here](https://drive.google.com/drive/folders/1upRRswJf_hXldl48w5QCX7LOJp71otJB).
 
 __Training__
+
 After warming up the flownet, train the pipeline by running
 ```
 sh scripts/run_train.sh
