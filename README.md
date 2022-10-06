@@ -53,17 +53,14 @@ Then run
 sh scripts/run_PBAFN.sh
 ```
 
-__Note__: if you don't want to warmup the Flow Field Estimator, you can extract the weights from [here](https://drive.google.com/drive/folders/1upRRswJf_hXldl48w5QCX7LOJp71otJB).
+__Note__: if you don't want to warmup the Estimator, you can extract the weights from [here](https://drive.google.com/drive/folders/1upRRswJf_hXldl48w5QCX7LOJp71otJB).
 
 __Training__
 
-After warming up the flownet, train the pipeline by
+After warming up the flownet, train the pipeline by running
 ```
 sh scripts/run_train.sh
 ```
-Run ```tensorboard --logdir checkpoints/$EXP_NAME/train``` to check tensorboard.
-
-*Note: Resetting discriminators may help training when it stucks at local minimals.*
 
 
 ## Evaluations
