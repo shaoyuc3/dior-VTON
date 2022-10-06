@@ -38,15 +38,11 @@ For custom dataset or train from scratch, please generate the data folder with t
 
 
 ## Run Demo
-You can download the pretrained weights from [here](https://drive.google.com/drive/folders/1-7DxUvcrC3cvQV67Z2QhRdi-9PMDC8w9?usp=sharing) and unzip at ```checkpoints/```. 
+You can download the pretrained weights from [here](https://drive.google.com/drive/folders/1-7DxUvcrC3cvQV67Z2QhRdi-9PMDC8w9?usp=sharing) and unzip at ```checkpoints/```.
 
-After downloading the pretrained model and setting the data, you can try out our applications in notebook [demo.ipynb](demo.ipynb).
+After downloading the pretrained model and setting the data, you can try out the applications in notebook [demo.ipynb](demo.ipynb).
 
-*(The checkpoints above are reproduced, so there could be slightly difference in quantitative evaluation from the reported results. To get the original results, please check our released generated images [here](https://drive.google.com/drive/folders/1GOQVMhBKvANKutLDbzPbE-Zrb6ai9Eo8?usp=sharing).)*
 
-*(```DIORv1_64``` was trained with a minor difference in code, but it may give better visual results in some applications. If one wants to try it, specify ```--netG diorv1```.)*
-
----
 ## Training
 
 __Warmup the Global Flow Field Estimator__
