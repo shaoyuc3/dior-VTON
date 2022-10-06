@@ -66,26 +66,13 @@ To evaluate (SSIM, FID and LPIPS) and generate images, run
 ```
 sh scripts/run_eval.sh
 ```
+__Note__: Please change ```test_pairs.txt``` to test_pairs_same.txt in the code [here](https://github.com/shaoyuc3/dior-VITON/blob/28a2f7d6b59ada603e3786957863901509af344b/datasets/viton_datasets.py#L51) and [here](https://github.com/shaoyuc3/dior-VITON/blob/28a2f7d6b59ada603e3786957863901509af344b/datasets/viton_datasets.py#L130) when calculating SSIM and LPIPS.
 
 Our generated images [\[256x192\]](https://drive.google.com/drive/folders/16RHLVxGx7kYD_YZ7MoSOlWO2TnHHXYVU).
 
----
-## Cite us!
-If you find this work is helpful, please consider starring :star2: this repo and cite us as
-```
-@InProceedings{Cui_2021_ICCV,
-    author    = {Cui, Aiyu and McKee, Daniel and Lazebnik, Svetlana},
-    title     = {Dressing in Order: Recurrent Person Image Generation for Pose Transfer, Virtual Try-On and Outfit Editing},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {14638-14647}
-}
-```
+
 ## Acknowledgements
 This repository is built up on [GFLA](https://github.com/RenYurui/Global-Flow-Local-Attention),
 [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), 
 [PATN](https://github.com/tengteng95/Pose-Transfer) and 
 [MUNIT](https://github.com/NVlabs/MUNIT). Please be aware of their licenses when using the code. 
-
-Thanks a lot for the great work to the pioneer researchers!
