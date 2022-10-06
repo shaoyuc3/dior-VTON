@@ -38,7 +38,7 @@ For custom dataset or train from scratch, please generate the data folder with t
 
 
 ## Run Demo
-You can download the pretrained weights from [here](https://drive.google.com/drive/folders/1-7DxUvcrC3cvQV67Z2QhRdi-9PMDC8w9?usp=sharing) and unzip at ```checkpoints/```.
+You can download the pretrained weights from [here](https://drive.google.com/drive/folders/1Qgaj4n9e412CDdNQOWiuIuEy8Ysx2HrY) and unzip at ```checkpoints/```.
 
 After downloading the pretrained model and setting the data, you can try out the applications in notebook [demo.ipynb](demo.ipynb).
 
