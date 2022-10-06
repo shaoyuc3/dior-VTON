@@ -56,27 +56,18 @@ sh scripts/run_PBAFN.sh
 __Note__: if you don't want to warmup the Estimator, you can extract the weights from [here](https://drive.google.com/drive/folders/1upRRswJf_hXldl48w5QCX7LOJp71otJB).
 
 __Training__
-
 After warming up the flownet, train the pipeline by running
 ```
 sh scripts/run_train.sh
 ```
 
-
 ## Evaluations
-
-__Download Generated Images__ 
-
-Here are our generated images which are used for the evaluation reported in the paper. (Deepfashion Dataset) 
-- [\[256x176\]](https://drive.google.com/drive/folders/1GOQVMhBKvANKutLDbzPbE-Zrb6ai9Eo8?usp=sharing)
-- [\[256x256\]](https://drive.google.com/drive/folders/1GOQVMhBKvANKutLDbzPbE-Zrb6ai9Eo8?usp=sharing)
-
-__SSIM, FID and LPIPS__
-
-To run evaluation (SSIM, FID and LPIPS) on pose transfer task: 
+To evaluate (SSIM, FID and LPIPS) and generate images, run
 ```
 sh scripts/run_eval.sh
 ```
+
+Our generated images [\[256x192\]](https://drive.google.com/drive/folders/16RHLVxGx7kYD_YZ7MoSOlWO2TnHHXYVU).
 
 ---
 ## Cite us!
