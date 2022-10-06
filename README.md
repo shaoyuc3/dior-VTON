@@ -79,7 +79,7 @@ Our evaluation compared with other try-on methods on VITON dataset is as below.
 | [FlowStyle (Parse-based)](https://github.com/senhe/flow-style-vton)        | 0.82  | 12.11 |
 | [SDAFN](https://github.com/OFA-Sys/DAFlow)        | 0.89  | 12.05 |
 | [DiOr](https://github.com/cuiaiyu/dressing-in-order)        | 0.81  | 16.09 |
-| __DiOr-VITON (ours)__        | __0.81__  | __13.70__ |
+| DiOr-VITON (ours)        | 0.81 | 13.70 |
 
 
 
