@@ -72,7 +72,4 @@ Our generated images [\[256x192\]](https://drive.google.com/drive/folders/16RHLV
 
 
 ## Acknowledgements
-This repository is built up on [GFLA](https://github.com/RenYurui/Global-Flow-Local-Attention),
-[pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), 
-[PATN](https://github.com/tengteng95/Pose-Transfer) and 
-[MUNIT](https://github.com/NVlabs/MUNIT). Please be aware of their licenses when using the code. 
+This repository is built up on [DiOr](https://github.com/cuiaiyu/dressing-in-order) and [Flow-Style-VTON](https://github.com/SenHe/Flow-Style-VTON).
