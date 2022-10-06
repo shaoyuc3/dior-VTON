@@ -1,5 +1,4 @@
 # Dressing in Order (DiOr) on VITON Dataset
-
 This is an implementation of __Dressing in Order__ on VITON dataset using __Parser-Based Appearance Flow Style__.
 
 ![](Images/short_try_on_editing.png)
@@ -10,7 +9,6 @@ Play with [demo.ipynb](demo.ipynb)!
 
 
 ## Requirements
-
 - python 3.6.13
 - torch 1.10.1
 - torchvision 0.11.2
@@ -31,10 +29,8 @@ Please specify ```--frozen_flownet```.
 ## Dataset
 Download the __VITON Dataset__ from [here](https://drive.google.com/file/d/11kKsTXoRwfMzx32I6OADJYPmlRLxpRv8/view?usp=sharing).
 
-
 ### Custom dataset/from scratch
-
-For custom dataset or train from scratch, please generate the data folder with the same structure as above.
+For custom dataset or train from scratch, please generate the data folder with the same structure as below.
 
 1. human parse: [Human Parser](https://github.com/GoGoDuck912/Self-Correction-Human-Parsing) (with LIP labels)
 2. pose: [Openpose](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
@@ -42,7 +38,7 @@ For custom dataset or train from scratch, please generate the data folder with t
 
 
 ## Run Demo
-Please download the pretrained weights from [here](https://drive.google.com/drive/folders/1-7DxUvcrC3cvQV67Z2QhRdi-9PMDC8w9?usp=sharing) and unzip at ```checkpoints/```. 
+You can download the pretrained weights from [here](https://drive.google.com/drive/folders/1-7DxUvcrC3cvQV67Z2QhRdi-9PMDC8w9?usp=sharing) and unzip at ```checkpoints/```. 
 
 After downloading the pretrained model and setting the data, you can try out our applications in notebook [demo.ipynb](demo.ipynb).
 
