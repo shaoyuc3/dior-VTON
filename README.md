@@ -76,10 +76,10 @@ Our evaluation compared with other try-on methods on VITON dataset is as below.
 | CP-VTON        | 0.72  | 24.45 |
 | Cloth-flow        | 0.84  | 14.43 |
 | OVNET        | 0.85  | - |
-| FlowStyle(Parse-based)        | 0.82  | 12.11 |
+| FlowStyle (Parse-based)        | 0.82  | 12.11 |
 | SDAFN        | 0.89  | 12.05 |
 | DiOr        | 0.81  | 16.09 |
-| DiOr-VITON(ours)        | 0.81  | 13.70 |
+| DiOr-VITON (ours)        | 0.81  | 13.70 |
 
 
 
