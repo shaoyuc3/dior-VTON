@@ -71,6 +71,7 @@ __Note__: Please change ```test_pairs.txt``` to ```test_pairs_same.txt``` in the
 Our generated images [\[256x192\]](https://drive.google.com/drive/folders/16RHLVxGx7kYD_YZ7MoSOlWO2TnHHXYVU).
 Our evaluation compared with other try-on methods is down below.
 |         |        |      | SSIM(&#8593;)  | FID(&#8595;) |
+| ------------- |:-------------:| ------------:| ------------:| ------------:|
 
 
 
