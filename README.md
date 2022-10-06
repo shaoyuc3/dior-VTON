@@ -69,9 +69,17 @@ sh scripts/run_eval.sh
 __Note__: Please change ```test_pairs.txt``` to ```test_pairs_same.txt``` in the code [here](https://github.com/shaoyuc3/dior-VITON/blob/28a2f7d6b59ada603e3786957863901509af344b/datasets/viton_datasets.py#L51) and [here](https://github.com/shaoyuc3/dior-VITON/blob/28a2f7d6b59ada603e3786957863901509af344b/datasets/viton_datasets.py#L130) when calculating SSIM and LPIPS.
 
 Our generated images [\[256x192\]](https://drive.google.com/drive/folders/16RHLVxGx7kYD_YZ7MoSOlWO2TnHHXYVU).
-Our evaluation compared with other try-on methods is down below.
-|         |        |      | SSIM(&#8593;)  | FID(&#8595;) |
-| ------------- |:-------------:| ------------:| ------------:| ------------:|
+Our evaluation compared with other try-on methods on VITON dataset is as below.
+|         | SSIM(&#8593;)  | FID(&#8595;) |
+| ------------- | ------------:| ------------:|
+| VITON        | 0.74  | 55.71 |
+| CP-VTON        | 0.72  | 24.45 |
+| Cloth-flow        | 0.84  | 14.43 |
+| OVNET        | 0.85  | - |
+| FlowStyle(Parse-based)        | 0.82  | 12.11 |
+| SDAFN        | 0.89  | 12.05 |
+| DiOr        | 0.81  | 16.09 |
+| DiOr-VITON(ours)        | 0.81  | 13.70 |
 
 
 
