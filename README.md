@@ -72,14 +72,14 @@ Our generated images [\[256x192\]](https://drive.google.com/drive/folders/16RHLV
 Our evaluation compared with other try-on methods on VITON dataset is as below.
 |         | SSIM(&#8593;)  | FID(&#8595;) |
 | ------------- | ------------:| ------------:|
-| VITON        | 0.74  | 55.71 |
-| CP-VTON        | 0.72  | 24.45 |
-| Cloth-flow        | 0.84  | 14.43 |
-| OVNET        | 0.85  | - |
-| FlowStyle (Parse-based)        | 0.82  | 12.11 |
-| SDAFN        | 0.89  | 12.05 |
-| DiOr        | 0.81  | 16.09 |
-| DiOr-VITON (ours)        | 0.81  | 13.70 |
+| [VTON](https://github.com/xthan/VITON)        | 0.74  | 55.71 |
+| [CP-VTON](https://github.com/sergeywong/cp-vton)        | 0.72  | 24.45 |
+| [Cloth-flow](https://openaccess.thecvf.com/content_ICCV_2019/papers/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.pdf)        | 0.84  | 14.43 |
+| [OVNET](https://paperswithcode.com/paper/toward-accurate-and-realistic-outfits)        | 0.85  | - |
+| [FlowStyle (Parse-based)](https://github.com/senhe/flow-style-vton)        | 0.82  | 12.11 |
+| [SDAFN](https://github.com/OFA-Sys/DAFlow)        | 0.89  | 12.05 |
+| [DiOr](https://github.com/cuiaiyu/dressing-in-order)        | 0.81  | 16.09 |
+| __DiOr-VITON (ours)__        | __0.81__  | __13.70__ |
 
 
 
