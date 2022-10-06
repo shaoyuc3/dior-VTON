@@ -2,12 +2,12 @@
 
 This is an implementation of __Dressing in Order__ on VITON dataset using __Parser-Based Appearance Flow Style__.
 
-
 ![](Images/short_try_on_editing.png)
 
 __More results__
 
 Play with [demo.ipynb](demo.ipynb)!
+
 
 ## Requirements
 
@@ -16,6 +16,7 @@ Play with [demo.ipynb](demo.ipynb)!
 - torchvision 0.11.2
 - opencv
 - visdom
+
 
 ## Get Started
 Run
@@ -26,36 +27,19 @@ pip install -r requirements.txt
 __If one wants to run inference only:__
 Please specify ```--frozen_flownet```.
 
+
 ## Dataset
-Download the __VITON Dataset__ from [here](https://drive.google.com/file/d/1TuRdpNj-SeUBwLg_mm6RbR7SCioscK2s/view?usp=sharing).
+Download the __VITON Dataset__ from [here](https://drive.google.com/file/d/11kKsTXoRwfMzx32I6OADJYPmlRLxpRv8/view?usp=sharing).
 
 
-After the processing, you should have the dataset folder formatted like:
-```
-+ $DATA_ROOT
-|   + train (all training images)
-|   |   - xxx.jpg
-|   |     ...
-|   + trainM_lip (human parse of all training images)
-|   |   - xxx.png
-|   |     ...
-|   + test (all test images)
-|   |   - xxx.jpg
-|   |     ...
-|   + testM_lip (human parse of all test images)
-|   |   - xxx.png
-|   |     ...
-|   - fashion-pairs-train.csv (paired poses for training)
-|   - fashion-pairs-test.csv (paired poses for test)
-|   - fashion-annotation-train.csv (keypoints for training images)
-|   - fashion-annotation-test.csv  (keypoints for test images)
-|   - train.lst
-|   - test.lst
-|   - standard_test_anns.txt
-```
+### Custom dataset/from scratch
 
+For custom dataset or train from scratch, please generate the data folder with the same structure as above.
 
----
+1. human parse: [Human Parser](https://github.com/GoGoDuck912/Self-Correction-Human-Parsing) (with LIP labels)
+2. pose: [Openpose](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
+3. dense pose: [DensePose](https://github.com/facebookresearch/DensePose)
+
 
 ## Run Demo
 Please download the pretrained weights from [here](https://drive.google.com/drive/folders/1-7DxUvcrC3cvQV67Z2QhRdi-9PMDC8w9?usp=sharing) and unzip at ```checkpoints/```. 
