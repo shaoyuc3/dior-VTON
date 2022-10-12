@@ -29,7 +29,7 @@ __Note__: If one wants to run inference only, please specify ```--frozen_flownet
 Download the __VITON Dataset__ from [here](https://drive.google.com/file/d/11kKsTXoRwfMzx32I6OADJYPmlRLxpRv8/view?usp=sharing).
 
 ### Custom dataset/from scratch
-For custom dataset or train from scratch, please generate the data folder with the same structure as below.
+For custom dataset or train from scratch, please generate the data folder with the same structure.
 
 1. human parse: [Human Parser](https://github.com/GoGoDuck912/Self-Correction-Human-Parsing) (with LIP labels)
 2. pose: [Openpose](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
