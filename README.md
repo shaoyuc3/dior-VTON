@@ -56,6 +56,6 @@ __Note__: Please change ```test_pairs.txt``` to ```test_pairs_same.txt``` in the
 We attained results of 0.81 for SSIM and 13.70 for FID.
 
 Some of the results:
-![](Images/examples.jpg)
+![](Images/image.jpg)
 
 More results can be found [here](https://drive.google.com/drive/folders/16RHLVxGx7kYD_YZ7MoSOlWO2TnHHXYVU).
