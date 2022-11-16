@@ -1,8 +1,6 @@
 # Independent Study: Learning Virtual Try-on for Image-based Tasks
 This project trains the modified [Dressing in Order (DiOr)](https://github.com/cuiaiyu/dressing-in-order) model on VITON dataset for Image-based Virtual Try-On task only without supporting the other tasks (e.g. outfit editing).
 
-![](Images/examples.jpg)
-
 
 ## Requirements
 - python 3.6.13
@@ -54,6 +52,9 @@ sh scripts/run_eval.sh
 __Note__: Please change ```test_pairs.txt``` to ```test_pairs_same.txt``` in the code [here](https://github.com/shaoyuc3/dior-VITON/blob/28a2f7d6b59ada603e3786957863901509af344b/datasets/viton_datasets.py#L51) and [here](https://github.com/shaoyuc3/dior-VITON/blob/28a2f7d6b59ada603e3786957863901509af344b/datasets/viton_datasets.py#L130) when calculating SSIM and LPIPS.
 
 ## Results
-Our generated images [\[256x192\]](https://drive.google.com/drive/folders/16RHLVxGx7kYD_YZ7MoSOlWO2TnHHXYVU).
-
 We attained results of 0.81 for SSIM and 13.70 for FID.
+
+Some of the results:
+![](Images/examples.jpg)
+
+More results can be found [here](https://drive.google.com/drive/folders/16RHLVxGx7kYD_YZ7MoSOlWO2TnHHXYVU).
