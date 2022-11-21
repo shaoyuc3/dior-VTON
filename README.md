@@ -48,9 +48,6 @@ This project is trained with the below structures:
 
 ## Training
 __Warming up flownet__
-
-We used a [Parser-Based Appearance Flow Style Estimator](https://github.com/SenHe/Flow-Style-VTON) to estimate flow fields.
-
 To warm up the flow field estimator, first download the vgg checkpoint from [here](https://github.com/senhe/flow-style-vton) and put the checkpoint under the folder ```models/networks/flowStyle```.
 
 Then run
