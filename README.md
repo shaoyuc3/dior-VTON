@@ -48,6 +48,7 @@ This project is trained with the below structures:
 
 ## Training
 __Warming up flownet__
+
 To warm up the flow field estimator, first download the vgg checkpoint from [here](https://github.com/senhe/flow-style-vton) and put the checkpoint under the folder ```models/networks/flowStyle```.
 
 Then run
